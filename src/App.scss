@@ -1,0 +1,25 @@
+@import "style/Pagination";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color:red;
+}
+
+.input {
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+}
+.inputSmall{
+     margin-top: 10px;
+}
+input::placeholder {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  padding-left: 10px;
+}
